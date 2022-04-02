@@ -1,0 +1,47 @@
+
+#formulario{
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+  
+  }
+  
+ #labels{
+    color:#908C8B;
+  font-size: 18px; 
+ }
+
+ #divform{
+    padding-top: 20px;
+ }
+
+ #izq{
+     font-size: 18px;
+     padding-right: 30px;
+     text-align: center;
+  
+ }
+
+ #der{
+    font-size: 18px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#center{
+    font-size: 18px;
+    text-align: center;
+    width: 425px;
+}
+
+input, select, textarea, button{
+    border: 2px solid #9B7EDE;
+    color: #000;
+    font-size: 18px;
+}
+
+#botonform{
+    margin-top: 20px;
+    padding: 10px;
+    color: #E8868D;
+}

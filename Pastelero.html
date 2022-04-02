@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <Title>Milkmocha</Title>
+        <link rel="icon" type="image/png" href="Images/logo.png">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/stylepasteles.css" rel="stylesheet" type="text/css" />
+        <link href="css/stylepastelero.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+       <header>
+        <div id="logo">
+            <img src="Images/logo.png" alt="Milkmocha">
+            <a  id="abtn" href="index.html">Salir</a>
+        </div>
+    </header>
+        <div id="app">
+            <div id="divpasteles">
+                <h1 id="h1titulo">Inventario</h1>
+                <div id="izquierda">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sabor</th>
+                                <th>Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chocolate</td>
+                                <td><input id="s1" value="20" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Fresa</td>
+                                <td><input id="S1f" value="50" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Vanilla</td>
+                                <td><input id="s1v" value="80" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Cafe</td>
+                                <td><input id="s1c" value="10" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Limon</td>
+                                <td><input id="s1l" value="40" disabled class="tdsabores"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="derecha">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Adornos</th>
+                                <th>Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>fruta</td>
+                                <td ><input id="ad1f" value="13" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Velas</td>
+                                <td ><input id="ad1v" value="25" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Texto</td>
+                                <td><input id="ad1t" value="15" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Cereales</td>
+                                <td ><input id="ad1c" value="50" disabled class="tdsabores"></td>
+                            </tr>
+                            <tr>
+                                <td>Imagen</td>
+                                <td><input id="ad1I" value="43" disabled class="tdsabores"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div id="h1titulo">
+                <h3>Pedidos</h3>
+                <button @click="cargarinfo" id="botonform">
+                    Cargar pedidos
+                </button>
+            </div>
+            <div id="divpedidos">
+                <div id="appx" >
+                    <span v-html="HTMLcontent"></span>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
+
+

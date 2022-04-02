@@ -1,0 +1,45 @@
+#divpasteles{
+    text-align: center;
+    padding-left: 150px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding: 10px;
+    height: 270px;
+}
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid #9B7EDE;
+    border-spacing: 3px;
+  }
+  th{
+      color:#908C8B;
+      font-size: 25px;
+  }
+  td{
+      color:#4B6858;
+      font-size: 20px;
+  }
+  th,td{
+      text-align: center;
+  }
+  
+#izquierda{
+    float: left;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 180px;
+
+}
+
+#derecha{
+    float: right;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    margin-right: 180px;
+}
+

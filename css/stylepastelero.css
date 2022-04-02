@@ -1,0 +1,61 @@
+#divpedidos{
+    width: 70% ;
+    margin-left: 200px;
+    text-align: center;
+}
+
+button{
+    background-color: fff;
+    border: none;
+    font-size: 20px;
+    color: #908C8B;
+}
+
+
+#appx{
+    font-size: 20px;
+    padding: 50px;
+    text-align: justify;
+    border: 2px solid #9B7EDE;
+    color: #908C8B;
+    margin-bottom: 50px;
+   
+}
+
+#abtn{
+    background-color: #B1C48B;
+    text-align: center;
+    padding: 20px;
+    margin-left: 620px;
+    margin-top: 140px;
+}
+
+#botonform{
+    margin-top: 20px;
+    padding: 10px;
+    color: #E8868D;
+}
+button{
+    border: 2px solid #9B7EDE;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tdcabecera{
+    font-size: 18px;
+    background-color: #9B7EDE;
+    color: #000;
+}
+
+.tdbody{
+    color:#908C8B; 
+    border: 2px solid #B1C48B";
+
+}
+
+.tdsabores{
+    background-color: #fff; 
+    border: none;
+    text-align: center;
+}
